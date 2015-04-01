@@ -139,6 +139,12 @@ confflags += --enable-target_replace
 confflags += --enable-target_scale
 confflags += --enable-target_set
 
+# stiletto's additions:
+confflags += --enable-network
+confflags += --enable-rrdtool
+confflags += --enable-rrdcached
+confflags += --enable-thermal
+
 # These plugins do not provide any functionality under Linux.
 # MacOS only (requires IO Kit):
 confflags += --disable-apple_sensors
